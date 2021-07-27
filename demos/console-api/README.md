@@ -92,3 +92,12 @@ console.dirxml(document);
 //   <body>...</body>
 //  </html>
 ```
+
+## console.error
+
+Prints log as error level
+
+```
+console.error('Print me to error')
+// Print me to error
+```
