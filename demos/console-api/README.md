@@ -66,5 +66,15 @@ Prints log as debug level
 
 ```
 console.debug('Print me to debug')
+// Print me to debug
 ```
 
+## console.dir(data)
+
+Prints the Json representation of object passed.
+
+```
+console.dir({key : "value"})
+
+// { key: "value" }
+```
