@@ -78,3 +78,17 @@ console.dir({key : "value"})
 
 // { key: "value" }
 ```
+
+## console.dirxml(node)
+
+Prints an XML representation of the descendants of node
+
+```
+console.dirxml(document);
+
+// #document
+//  <html lang="en">
+//   <head>...</head>
+//   <body>...</body>
+//  </html>
+```
